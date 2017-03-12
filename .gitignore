@@ -27,5 +27,5 @@ _testmain.go
 .idea
 
 # Binaries
-bin
-pkg
+hello/bin
+hello/pkg
