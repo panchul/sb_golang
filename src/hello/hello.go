@@ -2,7 +2,7 @@ package main
 
 import (
     "fmt"
-    "github.com/vagrant/sb_golang/stringutil"
+    "stringutil"
 )
 
 func main() {
