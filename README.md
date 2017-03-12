@@ -10,11 +10,27 @@ The ```/doc``` folder of the ```workspace``` repo has the documentation.
 I will gradually migrate the notes I have to this repository. To keep track of what I am adding:
 
 + hello
-    - Demoes how to create and run a Go project. More of a validation that Go was installed properly.
-      (To run, once you follow the Go installation, and go to $GOPATH, type ```$ go install github.com/user/sb_golang/hello```
-       and run ```$ $GOPATH/bin/hello```. You'd need to move that whole folder to the proper location, or make a
-       symbolic link to ```/home/vagrant/golang_workspace/src/github.com/vagrant/sb_golang``` )
-       ```$ go install github.com/vagrant/sb_golang/hello``` - to build and install
-       ```$ go test github.com/vagrant/sb_golang/stringutil``` - to run tests
-       ```$ $GOPATH/bin/hello``` - to execute (or add the path to the PATH)
+    - Set ```$GOPATH``` to the repo's directory (where you cloned it)
+    - run, for example, ```go run src/hello/hello.go```:
+        
+    ```
+    $ go run src/hello/hello.go 
+    Hello, world!
+    !dlrow ,olleH
+    ```
+
+    - or tests for the package ```go test stringutil```:
+        
+    ```
+    $ go test stringutil 
+    ok  	stringutil	0.005s
+    ```
+    
+    - or you can install it, and run from $GOPATH/bin or directly if you add that to $PATH:
+    
+    ```$ go install hello 
+      $ $GOPATH/bin/hello
+      Hello, world!
+      !dlrow ,olleH
+     ```
        
