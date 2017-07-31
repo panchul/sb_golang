@@ -11,6 +11,13 @@ I will gradually migrate the notes I have to this repository. To keep track of w
 
 + hello
   - Set `$GOPATH` to the repo's sub directory (where you cloned it plus `hello`)
+  
+  - If you are using vm ```golang1``` from my workspace workspace [https://github.com/panchul/workspace](https://github.com/panchul/workspace)
+and clone it into the folder 'tmp', run this to see it work:
+
+    golang1:~/tmp/sb_golang/hello$ GOPATH=`pwd` ; go run src/hello/hello.go
+      
+  
   - go to the directory `hello` run, for example, `go run src/hello/hello.go`:
     
         
