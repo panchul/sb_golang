@@ -1,4 +1,10 @@
 
+
+# Golang-related
+
+bin
+src
+
 .DS_Store
 tmp
 
@@ -34,3 +40,4 @@ _testmain.go
 # Binaries
 hello/bin
 hello/pkg
+
